@@ -19,9 +19,10 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenLocal()
-//    maven {
-//        url "http://localhost:8081/artifactory/jcenter"
-//    }
+    mavenCentral()
+    //maven {
+    //    url "http://localhost:8081/artifactory/jcenter"
+    //}
 }
 
 task sourcesJar(type: Jar) {
